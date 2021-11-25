@@ -27,6 +27,6 @@ pnpm-debug.log*
 
 git-init.js
 git-add.js
-
+git-add-license.js
 git-init-pushsync.js
 git-push.js
