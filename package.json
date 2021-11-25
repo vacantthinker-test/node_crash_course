@@ -1,18 +1,13 @@
 {
   "name": "node_crash_course",
   "version": "1.0.0",
-  "engines": {
-    "npm": "6.x",
-    "node": "14.x"
-  },
   "description": "node crash course",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "npm-install": "npm install",
     "watch-reference": "nodemon reference/http_demo.js",
-    "watch-somefile": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-somefile": "nodemon index.js"
   },
   "author": "",
   "license": "MIT",
@@ -20,6 +15,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "@types/node": "16.11.10"
   }
 }
