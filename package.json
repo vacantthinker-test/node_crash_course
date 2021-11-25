@@ -1,6 +1,10 @@
 {
   "name": "node_crash_course",
   "version": "1.0.0",
+  "engines": {
+    "npm": "6.x",
+    "node": "14.x"
+  },
   "description": "node crash course",
   "main": "index.js",
   "scripts": {
