@@ -5,17 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "npm-install": "npm install",
-    "watch-reference": "nodemon reference/http_demo.js",
-    "watch-somefile": "nodemon index.js"
+    "npm-install": "npm install"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "@types/node": "16.11.10"
   }
 }
