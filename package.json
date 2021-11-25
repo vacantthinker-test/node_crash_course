@@ -10,7 +10,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "uuid": "latest"
   },
   "devDependencies": {
+    "nodemon": "latest",
+    "@types/node": "latest"
   }
 }
